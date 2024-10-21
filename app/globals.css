@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 39 100% 97%;
+    --foreground: 210 20% 9%;
+
+    --card: 39 100% 97%;
+    --card-foreground: 210 20% 9%;
+ 
+    --popover: 39 100% 97%;
+    --popover-foreground: 210 20% 9%;
+ 
+    --primary: 210 100% 9%;
+    --primary-foreground: 0 0% 100%;
+ 
+    --secondary: 200 26% 24%;
+    --secondary-foreground: 0 0% 100%;
+
+    --tertiary: 43 31% 56%;
+    --tertiary-foreground: 210 20% 9%;
+
+    --alternate: 40 8% 76%;
+    --alternate-foreground: 210 20% 9%;
+ 
+    --muted: 40 8% 76%;
+    --muted-foreground: 210 20% 9%;
+ 
+    --accent: 43 31% 56%;
+    --accent-foreground: 210 20% 9%;
+ 
+    --destructive: 355 100% 68%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 26% 24%;
+    --input: 200 26% 24%;
+    --ring: 43 31% 56%;
+ 
+    --radius: 0.5rem;
+
+    --success: 170 61% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 43 94% 66%;
+    --warning-foreground: 210 20% 9%;
+
+    --info: 0 0% 100%;
+    --info-foreground: 210 20% 9%;
+  }
+ 
+  .dark {
+    --background: 210 100% 9%;
+    --foreground: 0 0% 100%;
+ 
+    --card: 210 100% 9%;
+    --card-foreground: 0 0% 100%;
+ 
+    --popover: 210 100% 9%;
+    --popover-foreground: 0 0% 100%;
+ 
+    --primary: 39 100% 48%;
+    --primary-foreground: 210 20% 9%;
+ 
+    --secondary: 35 89% 74%;
+    --secondary-foreground: 210 20% 9%;
+
+    --tertiary: 43 31% 56%;
+    --tertiary-foreground: 0 0% 100%;
+
+    --alternate: 210 100% 9%;
+    --alternate-foreground: 0 0% 100%;
+ 
+    --muted: 40 8% 76%;
+    --muted-foreground: 0 0% 100%;
+ 
+    --accent: 40 8% 76%;
+    --accent-foreground: 210 20% 9%;
+ 
+    --destructive: 355 100% 68%;
+    --destructive-foreground: 0 0% 100%;
+ 
+    --border: 200 26% 24%;
+    --input: 200 26% 24%;
+    --ring: 43 31% 56%;
+
+    --success: 170 61% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 43 94% 66%;
+    --warning-foreground: 210 20% 9%;
+
+    --info: 0 0% 100%;
+    --info-foreground: 210 20% 9%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
