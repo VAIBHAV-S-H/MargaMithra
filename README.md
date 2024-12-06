@@ -34,7 +34,7 @@ Just Click on the Login to have the Initial UserInterface of the APP
 ![mainpage](https://github.com/SharathxD/lol/blob/master/assets/images/LandingPage.jpg)
 
 # Dashboard
-![dashboard](https://github.com/SharathxD/lol/blob/master/assets/images/RouteOpt.png)
+![dashboard](https://github.com/VAIBHAV-S-H/MargaMithra/assets/images/RouteOpt.png)
 
 # RouteOptimizer
 ![Route Optimizer](https://github.com/SharathxD/lol/blob/master/assets/images/RouteOptimization.jpg)
